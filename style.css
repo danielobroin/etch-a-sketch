@@ -1,34 +1,16 @@
-.container{
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+#container {
+    margin: auto ;
+    height: 50vh;
+    width: 50vh;
     display: grid;
-    gap: 1rem;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-    
+    grid-gap: 1rem;
 
 }
-
-.container:hover{
-    background-color: aqua;
-}
-
-
-/*
-.one{
-    grid-column: 1/2;
-    grid-row: 1/2;
-
-}
-.two{
-    grid-column: 2/2;
-    grid-row: 1/2;
-}
-.three{
-    grid-column: 1/2;
-    grid-row: 2/2;
-
-}
-.four{
-    grid-column: 2/2;
-    grid-row: 2/2;
-
-} */
