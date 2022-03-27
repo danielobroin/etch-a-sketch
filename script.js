@@ -28,5 +28,5 @@ function etchasketch() {
             square.addEventListener("mouseover", function() {square.style.backgroundColor = square.getAttribute('data-color')})
         }
     }
-AuthenticatorAssertionResponse
+
 }
